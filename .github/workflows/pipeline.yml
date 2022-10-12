@@ -25,4 +25,4 @@ jobs:
           distribution: 'temurin'
 
       - name: Build with gradle
-        uses: ./gradlew build
+        run: ./gradlew build
